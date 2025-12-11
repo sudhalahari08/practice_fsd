@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student management system</title>
+    <title>Login</title>
     <style>
-        body{
-            background-color: cream;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+        body { font-family: Arial; padding: 40px; }
+        .box { width: 300px; margin: auto; }
     </style>
 </head>
 <body>
-    <h2> Enter details</h2>
-    <form>
-        <h3>Name:</h3>
-        <input type="text" id="name"><br>
-        <h3>Department:</h3>
-        <input type="department" id="department"><br>
-        <h3>Rollno:</h3>
-        <input type="rollno" id="rollno"><br>
-        <input type="submit" id="submit" >
-    </form>
+    <div class="box">
+        <h2>Login</h2>
+        <form>
+            <label>Email</label><br>
+            <input type="email" required><br><br>
+
+            <label>Password</label><br>
+            <input type="password" required><br><br>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
 </body>
 </html>

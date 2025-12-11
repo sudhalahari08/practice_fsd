@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <style>
+        body { font-family: Arial; padding: 40px; }
+        .box { width: 300px; margin: auto; }
+    </style>
 </head>
 <body>
-    <h2> Enter details</h2>
-    <form>
-        <h3>Name:</h3>
-        <input type="text" id="name"><br>
-        <h3>Department:</h3>
-        <input type="department" id="department"><br>
-        <h3>Rollno:</h3>
-        <input type="rollno" id="rollno"><br>
-        <input type="register" id="register" >
-    </form>
+    <div class="box">
+        <h2>Create Account</h2>
+        <form>
+            <label>Username</label><br>
+            <input type="text" required><br><br>
+
+            <label>Email</label><br>
+            <input type="email" required><br><br>
+
+            <label>Password</label><br>
+            <input type="password" required><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
 </body>
 </html>
